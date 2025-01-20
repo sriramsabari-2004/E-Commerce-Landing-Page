@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    font=size:20px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: red;
+    color: white;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('phone2.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 35vh;
+    text-align: center;
+}
+
+.cta-button {
+    background: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    background: url(feature.avif) no-repeat center center / cover;
+    padding: 25vh;
+    text-align: center;
+}
+
+.features .feature {
+    margin: 20px 0;
+}
+
+.productss {
+    background: url() no-repeat center center / cover;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.product-image {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+
+.product {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+}
+}
+
+footer, .contact {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
